@@ -1,0 +1,1 @@
+export { BoxHome } from './BoxHome'
