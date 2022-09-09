@@ -1,1 +1,5 @@
 export { Home } from './Home'
+export { RandomArtPage } from './RandomArtPage'
+export { SearchArts } from './SearchArts'
+export { AllArts } from './AllArts'
+export { About } from './About'

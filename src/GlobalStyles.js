@@ -8,14 +8,26 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto Condensed', sans-serif;
     
   }
-  body {
+
+  #root{
     width: 100vw;
     height: 100vh;
-    font-size: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-size: 5px;
+  }
+
+  .App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #030305ff;
   }
   button {
     cursor: pointer;

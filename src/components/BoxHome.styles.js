@@ -16,17 +16,12 @@ export const Box = styled.div`
     font-size: 3.75em;
     color: ${theme.color.charcoal};
     button{
-     width: 140px;
-     margin-top: 20px;
-     background: ${theme.color.pullmanBrownUpsBrown};
-     color: ${theme.color.charcoal};
-     font-size: .8em;
-     opacity: 0.9;
-    }
-    button:hover{
-     width:150px;
-     height: 70px;
-     font-size: 1em;
+      width: 140px;
+      margin-top: 20px;
+      background: ${theme.color.pullmanBrownUpsBrown};
+      color: ${theme.color.charcoal};
+      font-size: .8em;
+      opacity: 0.9;
     }
   `}
 `
