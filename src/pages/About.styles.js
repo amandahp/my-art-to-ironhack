@@ -12,7 +12,7 @@ export const About = styled.main`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 10px 10px 10px 10px;
+      padding: 10px 20px 10px 20px;
     }
     h1{
       color: ${theme.color.white};

@@ -24,7 +24,7 @@ export const Container = styled.div`
 export const Search = styled.input`
   ${({theme}) => `
     padding: 15px;
-    width: 430px;
+    width: 70%;
     ::placeholder{
       font-family: 'Qwitcher Grypen', cursive;
       font-size: 2em;
