@@ -13,26 +13,27 @@ export const RandomArtPage = ( ) => {
 
   return(
     <S.MyArt>
-    {isLoading && (<Oval
-      height={80}
-      width={80}
-      color="white"
-      wrapperStyle={{}}
-      wrapperClass=""
-      visible={true}
-      ariaLabel='oval-loading'
-      secondaryColor="grey"
-      strokeWidth={2}
-      strokeWidthSecondary={2}
-    />)}
-    {!isLoading &&(
-     <C.BoxYourArt
-       art={data[randomNumber].image_id} 
-       title={data[randomNumber].title}
-       altText={data[randomNumber].title} 
-     />
-     )}
-     {isError && (<p>Ops! Somethings is wrong :c</p>)}
-   </S.MyArt>
- )
+      <h1>Your especially ART</h1>
+      {isLoading && (<Oval
+        height={80}
+        width={80}
+        color="white"
+        wrapperStyle={{}}
+        wrapperClass=""
+        visible={true}
+        ariaLabel='oval-loading'
+        secondaryColor="grey"
+        strokeWidth={2}
+        strokeWidthSecondary={2}
+      />)}
+      {!isLoading &&(
+        <C.BoxYourArt
+          art={data[randomNumber].image_id} 
+          title={data[randomNumber].title}
+          altText={data[randomNumber].title} 
+        />
+        )}
+      {isError && (<p>Ops! Somethings is wrong :c</p>)}
+  </S.MyArt>
+  )
 }

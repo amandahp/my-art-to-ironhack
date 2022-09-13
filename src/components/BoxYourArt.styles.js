@@ -25,11 +25,7 @@ export const BoxArt = styled.div`
       height: 100% ;
       color: ${theme.color.white};
  
-      font-size: 3em;
-      h1 {
-         font-family: 'Qwitcher Grypen', cursive;
-         margin: 10px 10px 10px 10px ;
-      }
+      font-size: 1em;
       img{
          width: 260px;
          height: 220px;
@@ -44,12 +40,8 @@ export const BoxArt = styled.div`
 
    @media ${devices.tablet}{
       height: 100%;
-      font-size: 5em;
-      h1 {
-         font-family: 'Qwitcher Grypen', cursive;
-         margin: 20px 20px 20px 20px ;
-      }
       color: ${theme.color.white};
+      font-size: 1em;
       img{
          width: 550px;
          height: 450px;

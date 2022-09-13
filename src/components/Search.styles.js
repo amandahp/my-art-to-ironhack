@@ -16,9 +16,7 @@ export const Container = styled.div`
       font-family: 'Qwitcher Grypen', cursive;
       margin: 10px 10px 10px 10px;
     }
-  
   `}
-
 `
 
 export const Search = styled.input`
