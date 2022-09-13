@@ -11,8 +11,8 @@ export const RandomArtPage = ( ) => {
  const randomNumber = Math.floor(Math.random() * 100)
  const {data, isError, isLoading } = useQuery('arts', getArt)
 
- return(
-   <S.MyArt>
+  return(
+    <S.MyArt>
     {isLoading && (<Oval
       height={80}
       width={80}

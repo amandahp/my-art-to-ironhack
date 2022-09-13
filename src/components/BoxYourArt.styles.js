@@ -8,7 +8,7 @@ export const BoxArt = styled.div`
       align-items: center;
       justify-content: center;
       align-content: center;
-      width: 100%;
+
       .frame{
          display: flex;
          align-items: center;
@@ -22,8 +22,9 @@ export const BoxArt = styled.div`
 
    @media ${devices.mobileS}{
       width: 100%;
+      height: 100% ;
       color: ${theme.color.white};
-      margin-top: 120px ;
+ 
       font-size: 3em;
       h1 {
          font-family: 'Qwitcher Grypen', cursive;
@@ -42,8 +43,8 @@ export const BoxArt = styled.div`
    }
 
    @media ${devices.tablet}{
-      margin-top: 80px ;
-      font-size: 4em;
+      height: 100%;
+      font-size: 5em;
       h1 {
          font-family: 'Qwitcher Grypen', cursive;
          margin: 20px 20px 20px 20px ;

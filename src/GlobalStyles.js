@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
   #root{
     width: 100vw;
     height: 100vh;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,12 +22,9 @@ const GlobalStyle = createGlobalStyle`
 
   .App{
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    height: 100%;
     background-color: #030305ff;
   }
   button {

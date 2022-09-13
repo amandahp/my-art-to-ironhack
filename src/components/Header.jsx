@@ -19,7 +19,7 @@ export const Header = () => {
  } 
    
  const handleClickAllArts = () => {
-   navigate("/all-arts")
+   navigate("/some-arts")
  } 
    
  const handleClickAbout = () => {
@@ -44,7 +44,7 @@ export const Header = () => {
      <div className='desktop'>
       <button onClick={handleClickMyArt}>Generete My ART</button>
       <button onClick={handleClickSearch}>Search Arts</button>
-      <button onClick={handleClickAllArts}>All Arts</button>
+      <button onClick={handleClickAllArts}>Some Arts</button>
       <button onClick={handleClickAbout}>About</button>
      </div>
    </S.Header>
