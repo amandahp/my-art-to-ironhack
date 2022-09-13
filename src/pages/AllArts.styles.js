@@ -18,7 +18,7 @@ export const Title = styled.h1`
     color: ${theme.color.white};  
     font-size: 12em;
     font-family: 'Qwitcher Grypen', cursive;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 50px;
   `}
 `
@@ -46,6 +46,7 @@ export const Container = styled.div`
 
     @media ${devices.mobileS}{
       grid-template-columns: repeat(1, 1fr);
+      height: 100vh;
     }
 
     @media ${devices.tablet}{

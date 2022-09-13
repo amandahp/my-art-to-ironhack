@@ -10,25 +10,29 @@ export const Header = () => {
  const navigate = useNavigate()
 
  const handleClickMyArt = () => {
-   navigate("/my-art")
+    setBoxSand(!boxSand)
+    navigate("/my-art")
  
  }
    
  const handleClickSearch = () => {
-   navigate("/search-arts")
+    setBoxSand(!boxSand)
+    navigate("/search-arts")
  } 
    
  const handleClickAllArts = () => {
-   navigate("/some-arts")
+    setBoxSand(!boxSand)
+    navigate("/some-arts")
  } 
    
  const handleClickAbout = () => {
-   navigate("/about")
+    setBoxSand(!boxSand)
+    navigate("/about")
  }
  
 
- const handleClick = () => {
-  setBoxSand(!boxSand)
+  const handleClick = () => {
+    setBoxSand(!boxSand)
  }
 
  return(

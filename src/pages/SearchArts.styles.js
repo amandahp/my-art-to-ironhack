@@ -46,6 +46,7 @@ export const Container = styled.div`
     }
 
     @media ${devices.mobileS}{
+      height: 100vh;
       grid-template-columns: repeat(1, 1fr);
     }
 

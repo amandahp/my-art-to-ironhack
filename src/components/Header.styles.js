@@ -59,7 +59,7 @@ export const Header = styled.header`
 export const Box = styled.div`
   ${({theme}) => `
     width: 100%;
-    height: 100px;
+    height: 400px;
     background: ${theme.color.raisinBlack};
     button{
       color: ${theme.color.white};
