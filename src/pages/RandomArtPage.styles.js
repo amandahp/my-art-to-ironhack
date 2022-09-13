@@ -6,7 +6,7 @@ export const MyArt = styled.main`
   display: flex;
   flex-direction:column;
   align-items: center;
- 
+  overflow-x:hidden;
 
   `}
 `

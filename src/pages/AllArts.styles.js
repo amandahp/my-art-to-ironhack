@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../devices'
 
 export const AllArts = styled.main`
   ${({theme}) => `
@@ -26,7 +27,6 @@ export const Container = styled.div`
   ${({theme}) => `
     display: grid;
     height: 100%;
-    grid-template-columns: repeat(3, .4fr);
     grid-column-gap: 0px;
     grid-row-gap: 10px;
     h3{ 
@@ -42,6 +42,14 @@ export const Container = styled.div`
     img{
       width: 300px;
       max-height: 350px;
+    }
+
+    @media ${devices.mobileS}{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media ${devices.tablet}{
+      grid-template-columns: repeat(3, 0.5fr);
     }
   `}
 

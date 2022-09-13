@@ -6,7 +6,7 @@ export const SearchBar = (props) => {
     <>
       <S.Container>
         <h1>Search Your Favorite Art</h1>
-        <S.Search onChange={onChangeArt} placeholder={placeholder} />
+        <S.Search onChange={(e) => onChangeArt(e.target.value)} placeholder={placeholder} />
       </S.Container>
     </>
   )
