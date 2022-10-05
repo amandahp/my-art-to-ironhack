@@ -4,7 +4,7 @@ import { devices } from '../devices'
 export const Header = styled.header`
   ${({ theme }) => `
     width: 100%;
-    max-height: 200px;
+    max-height: 320px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -41,6 +41,7 @@ export const Header = styled.header`
       align-content: flex-end;
       }
       .desktop button {
+      padding: 20px ;
       margin: 10px 10px 10px 10px;
       background: transparent;
       color: ${theme.color.white};
@@ -48,8 +49,7 @@ export const Header = styled.header`
       text-align: center;
       }
       .desktop button:hover {
-      border: 2px solid ${theme.color.white};
-      font-size: 6em;
+      border: 1px solid ${theme.color.white};
       font-family: 'Qwitcher Grypen', cursive; 
       }
     }  
@@ -57,7 +57,7 @@ export const Header = styled.header`
 `
 
 export const Box = styled.div`
-  ${({theme}) => `
+  ${({ theme }) => `
     width: 100%;
     height: 400px;
     background: ${theme.color.raisinBlack};
@@ -65,17 +65,13 @@ export const Box = styled.div`
       color: ${theme.color.white};
       width: 100%;
       background-color: transparent;
-      height: 25%;
       font-size: 6em;
-
     }
     button:hover{
       font-family: 'Qwitcher Grypen', cursive; 
     }
-  @media ${devices.tablet}{
-    display: none;
-  }
-
+    @media ${devices.tablet}{
+      display: none;
+    }
   `}
-
 `

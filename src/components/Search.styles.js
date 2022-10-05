@@ -7,15 +7,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     align-content: flex-start;
-    margin-top: 150px;
+    margin-top: 20px;
     margin-bottom: 50px;
     width: 100%;
     color: ${theme.color.white};
-    font-size: 4em; 
-    h1{
-      font-family: 'Qwitcher Grypen', cursive;
-      margin: 10px 10px 10px 10px;
-    }
+    font-size: 4em;
   `}
 `
 
@@ -28,7 +24,6 @@ export const Search = styled.input`
       font-size: 2em;
       color: ${theme.color.richBlackFogra};
     }
-  
   `}
 
 `

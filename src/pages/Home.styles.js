@@ -3,13 +3,15 @@ import { devices } from '../devices'
 
 export const Layout = styled.main`
   ${({ theme }) => `
-  width: 100%;
+  width: 100vh;
   margin: auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
+  align-content: center; 
+  height: 100vh;
+
   img{
     width: 450px;
     padding: 10px 10px 10px 10px;

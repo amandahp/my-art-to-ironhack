@@ -7,7 +7,12 @@ export const MyArt = styled.main`
   display: flex;
   flex-direction:column;
   align-items: center;
-  overflow-x:hidden;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  h1{
+    margin-bottom: 50px;
+  }
   p{
     color: ${theme.color.white};
   }
@@ -21,11 +26,7 @@ export const MyArt = styled.main`
     }
 
   @media ${devices.tablet}{
-      font-size: 5em;
-      h1 {
-        font-family: 'Qwitcher Grypen', cursive;
-          padding:20px 20px 20px 20px ;
-      }
+    font-size: 5em;
   }
   `}
 `

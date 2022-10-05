@@ -8,7 +8,7 @@ export const BoxArt = styled.div`
       align-items: center;
       justify-content: center;
       align-content: center;
-
+      padding: 10px 10px 10px 10px;
       .frame{
          display: flex;
          align-items: center;
@@ -21,10 +21,9 @@ export const BoxArt = styled.div`
       }
 
    @media ${devices.mobileS}{
-      width: 100%;
-      height: 100% ;
+      width: 80%;
+      height: 70% ;
       color: ${theme.color.white};
- 
       font-size: 1em;
       img{
          width: 260px;
@@ -39,7 +38,6 @@ export const BoxArt = styled.div`
    }
 
    @media ${devices.tablet}{
-      height: 100%;
       color: ${theme.color.white};
       font-size: 1em;
       img{

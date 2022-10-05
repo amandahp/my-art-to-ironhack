@@ -10,8 +10,6 @@ export const SearchArts = () => {
   const [debouncedFilter] = useDebounce(filter, 500);
   const {data, isLoading, isError} = useQuery(['searchedArt',debouncedFilter],() => searchArt(debouncedFilter),{enabled:Boolean(debouncedFilter)})
 
-
-  console.log(data)
   const handleSearchChange = (e) =>{
     setFilter(e)
   }
@@ -19,6 +17,7 @@ export const SearchArts = () => {
 
   return(
     <S.Search>
+      <h1>Search Your Favorite Art</h1>
       <C.SearchBar
         onChangeArt={handleSearchChange}
         placeholder="Search your ART"

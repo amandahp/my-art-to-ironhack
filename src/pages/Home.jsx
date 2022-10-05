@@ -1,7 +1,14 @@
+
+import { useNavigate } from "react-router-dom"
+
+
 import * as S from './Home.styles'
 import * as C from '../components'
 
-import { useNavigate} from "react-router-dom"
+import imageOne from '../assets/colorful-3d-shapes-vaporwave-style.jpg'
+import imageTwo from '../assets/bw-greek-statue-image-torn-paper-style-remixed-media.jpg'
+import imageThree from '../assets/bw-greek-statue-image-torn-paper-style-remixed-media.jpg'
+
 
 export const Home = () => {
   const navigate = useNavigate()
@@ -10,20 +17,20 @@ export const Home = () => {
     navigate('/my-art')
   }
 
-  return(
-    <>
+  return (
+    <div className=".App">
       <S.Layout>
         <div className='container'>
-        <C.BoxHome
-          handleClick={handleClickMyArt}
-        />
-        <div className='columnOne'>
-          <img className="colorfulImage" src="colorful-3d-shapes-vaporwave-style.jpg" alt="colorful 3d shapes"/>
-          <img className="statue" src="bw-greek-statue-image-torn-paper-style-remixed-media.jpg" alt="statue paper"/>
-        </div>
-        <img className="womanArt" src="statue-david-by-michelangelo-florence.jpg" alt="woman with paint" />
+          <C.BoxHome
+            handleClick={handleClickMyArt}
+          />
+          <div className='columnOne'>
+            <img className="colorfulImage" src={imageOne} alt="colorful 3d shapes" />
+            <img className="statue" src={imageTwo} alt="statue paper" />
+          </div>
+          <img className="womanArt" src={imageThree} alt="woman with paint" />
         </div>
       </S.Layout>
-    </>
+    </div>
   )
 }
