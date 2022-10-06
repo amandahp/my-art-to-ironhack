@@ -7,7 +7,7 @@ import * as C from '../components'
 
 import imageOne from '../assets/colorful-3d-shapes-vaporwave-style.jpg'
 import imageTwo from '../assets/bw-greek-statue-image-torn-paper-style-remixed-media.jpg'
-import imageThree from '../assets/bw-greek-statue-image-torn-paper-style-remixed-media.jpg'
+import imageThree from '../assets/statue-david-by-michelangelo-florence.jpg'
 
 
 export const Home = () => {
