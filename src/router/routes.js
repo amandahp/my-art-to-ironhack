@@ -5,5 +5,6 @@ export const routes = [
   { path: '/my-art', element: <RandomArtPage />, header: true },
   { path: '/search-arts', element: <SearchArts />, header: true },
   { path: '/some-arts', element: <AllArts />, header: true },
-  { path: '/about', element: <About />, header: true }
+  { path: '/about', element: <About />, header: true },
+  { path: '*', element: <Home />, header: false }
 ]

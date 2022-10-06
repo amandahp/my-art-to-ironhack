@@ -19,6 +19,7 @@ const buildRoutes = () => {
     ) : (
       <Route path={route.path} key={route.path} element={route.element} />
     )
+
   })
 }
 export default buildRoutes
