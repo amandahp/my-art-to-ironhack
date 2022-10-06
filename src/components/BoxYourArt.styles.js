@@ -21,9 +21,10 @@ export const BoxArt = styled.div`
       }
 
    @media ${devices.mobileS}{
-      width: 80%;
-      height: 70% ;
+      width: 100%;
+      height: 100%;
       color: ${theme.color.white};
+      background: ${theme.color.richBlackFogra} ;
       font-size: 1em;
       img{
          width: 260px;
