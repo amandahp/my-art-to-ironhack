@@ -1,11 +1,9 @@
 ## Descrição do Projeto / Project description
 <p align="center">PT: Caminho de acesso a aplicação: http://localhost:3000/home </p>
 <p align="center">EN: Application access path: http://localhost:3000/home</p>
-<p>Demonstração/ Demonstration:</p>
 
-https://www.loom.com/share/c5acc51fba834a06870ed324011b1f82
-
-
+## Link
+<a href="https://my4rt.netlify.app/">MY-ART</a>
 
 ### Pré-requisitos / Prerequisites
 <p align="center"> PT: Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
